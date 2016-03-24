@@ -1,0 +1,626 @@
+
+/* =Content
+-----------------------------------------------------------------------------*/
+
+	#content_wrap:after {content:".";display:block;height:0;clear:both;visibility:hidden}
+	#content_wrap {display:inline-block;padding:10px 9px;background:#FFF}
+	/* Hides from IE-mac \*/
+	* html #content_wrap {height:1%}
+	#content_wrap {display: block}
+	/* End hide from IE-mac */
+	
+	#content_main {float:left;width:557px}
+	#content_sub {float:right;width:179px}
+
+
+	
+	
+/* =Boxes
+-----------------------------------------------------------------------------*/
+	
+	/* Box Style 1 */
+	/* Sample Usage >> http://www.enom.com/resellers/collateral.asp */
+	DIV.box_1 {margin:1em 0;padding:1px;border:1px solid #92a5bc;border-top-width:3px}
+	DIV.box_1 .box_title {background:#144682;color:#FFF;font-size:95%;margin:0;text-align:right;text-transform:uppercase;font-family:Verdana, Arial, Helvetica, sans-serif}
+	DIV.box_1 .box_title SPAN {display:block;padding:3px 5px}
+	DIV.box_1 DIV.box_content {background:#F5F7F9 url('/images/bkg_box_1.gif') repeat-x bottom;padding:3px 5px;margin-top:1px}
+	
+	/* Contact Box */
+	/* Sample Usage >> http://www.enom.com/resellers/collateral.asp */
+	DIV.box_1 P.contact_box {margin:0;padding:5px 0;font-size:120%;font-style:italic;background:transparent url('/images/e3/e3_icon42_contact.gif') no-repeat top right;color:#144682}
+	DIV.box_1 P.contact_box SPAN {display:block;font-weight:bold;padding-right:46px;text-align:right;font-style:normal}
+
+	/* Related Links Box */
+	/* Sample Usage >> http://www.enom.com/resellers/newdocumentation.asp */
+	DIV.box_1 .related_box UL {margin:.7em 0;padding:0;list-style:none}	
+	DIV.box_1 .related_box LI {margin:.7em 0 .7em 4px;padding:0 0 0 12px;background:transparent url('/images/e3/e3_dotarrow_rht_blu.gif') 0 3px  no-repeat}	
+	DIV.box_1 .related_box UL UL {list-style:none;padding:0;margin:0}	
+
+	/* Sample Usage >> http://www.bulk.com/bulk/membershipfaq.asp */
+	DIV.box_1 UL.ul_1 LI {margin-left:3px;padding-left:10px}
+
+
+
+
+	/* Box 2 */
+	/* Sample Usage >> http://www.enom.com/domains/faq_tlds.asp */
+	DIV.box_2 {margin:1.5em 0;border-bottom:10px solid #ccc}
+	DIV.box_2 .box_title {background:#144682;color:#FFF;font-size:13px;margin:0;font-weight:bold;font-family:Arial, Helvetica, sans-serif}
+	DIV.box_2 .box_title SPAN {display:block;padding:3px 5px}
+	DIV.box_2 .box_title A:Link, DIV.box_2 .box_title A:Visited {color:#FFF} 
+	DIV.box_2 .box_title A:Hover, DIV.box_2 .box_title A:Active {color:#FC0;text-decoration:underline}
+	DIV.box_2 DIV.box_content {background:#F5F7F9;padding:10px}
+	DIV.box_2 DIV.table_wrap {padding:0}
+
+
+
+/* =Horizontal Rules
+-----------------------------------------------------------------------------*/
+
+	/* Horizontal Rule 1 */
+	/* Sample Usage >> http://www.enom.com/resellers/collateral.asp */
+	DIV.hr_1 {height:3px;background:#92a5bc;margin:1em 0}
+	DIV.hr_1 HR {display:none}
+	
+	
+	/* Horizontal Rule 2 */
+	/* Sample Usage >> http://www.enom.com/resellers/collateral.asp */
+	DIV.hr_2 {height:1px;background:#92a5bc;margin:1em 0}
+	DIV.hr_2 HR {display:none}
+	
+	
+/* =TABLES
+-----------------------------------------------------------------------------*/
+	
+	/* Table Form 1 */
+	/* Sample Usage >> http://www.enom.com/domains/TradeContactInfo.asp */
+	TABLE.table-form-1 {width:100%}
+	TABLE.table-form-1 TD {padding:3px 0;vertical-align:top}
+	/* Misc. Column Styles for Table Form 1 */
+	TABLE.table-form-1 .title-clm {text-align:right;width:240px}
+	TABLE.table-form-1 .req-clm {width:5%;text-align:center}
+	TABLE.table-form-1 .input-clm {text-align:left}
+
+	
+	/* Radio Set 1 - These should be replaced with a non table layout */
+	/* Sample Usage >> http://www.enom.com/domains/Transfers.asp */
+	TABLE.radio-set-1 {margin:5px 0}
+	TABLE.radio-set-1 TD.radio-clm {vertical-align:top;padding:10px 0}
+	TABLE.radio-set-1 TD.desc-clm {vertical-align:top;padding:10px 0 10px 10px}
+	
+	
+	/* Check Box Set 1 - These should be replaced with a non table layout  */
+	/* Sample Usage >> http://www.enom.com/domains/TransferNew.asp */
+	TABLE.check-box-set-1 {margin:5px 0}
+	TABLE.check-box-set-1 TD.check-clm {vertical-align:top;padding:5px 0}
+	TABLE.check-box-set-1 TD.desc-clm {vertical-align:top;padding:5px 0 5px 10px}
+	
+	
+	/* Data Table 1 */
+	/* Sample Usage >> http://www.enom.com/domains/TradeContactInfo.asp */
+	TABLE.data-table-1 {width:100%;border-top:1px solid #FFF}
+	TABLE.data-table-1 TR {background:#E5E5E5}
+	TABLE.data-table-1 TR.alt-row {background:#F2F2F2}
+	TABLE.data-table-1 TR:Hover {background:#FFFCD3} /* TODO: Add IE Hover Fix */
+	TABLE.data-table-1 TH {text-align:left;background:#CCC;border-bottom:1px solid #FFF;color:#444E61;padding:5px 0}
+	TABLE.data-table-1 TD {border-bottom:1px solid #FFF;padding:3px 0}
+	/* Misc. Column & Row Styles for Data Table 1 */
+	TABLE.data-table-1 .check-box-1 {width:25px;padding-left:10px}
+	TABLE.data-table-1 .options-1 {text-align:right;padding-right:10px}
+	TABLE.data-table-1 .domain-name-1 {padding-left:10px}
+	TABLE.data-table-1 .auth-key-1 {text-align:left;padding-right:10px;width:175px}
+	TABLE.data-table-1 .basic-1 {text-align:center}
+	
+
+	/* Data Table 2 */
+	/* Sample Usage >> http://www.enom.com/domains/faq_tlds.asp */
+	TABLE.data-table-2 {width:100%;border-top:1px solid #FFF}
+	TABLE.data-table-2 THEAD TH {text-align:left;background:#CCC;color:#444E61;border:1px solid #FFF;border-width:0 0 1px 1px;padding:5px}
+	TABLE.data-table-2 TBODY TH {background:#E5E5E5;border-bottom:1px solid #FFF;text-align:left;vertical-align:top;color:#444E61;padding:5px}
+	TABLE.data-table-2 TBODY TR.alt-row TH {background:#F2F2F2}
+	TABLE.data-table-2 TBODY TD {background:#E5E5E5;border-left:1px solid #FFF;border-bottom:1px solid #FFF;padding:5px;vertical-align:top}
+	TABLE.data-table-2 TBODY TR.alt-row TD {background:#F2F2F2}
+	TABLE.data-table-2 TBODY TR:Hover TD,
+	TABLE.data-table-2 TBODY TR:Hover TH,
+	TABLE.data-table-2 TBODY TR.alt-row:Hover TD,
+	TABLE.data-table-2 TBODY TR.alt-row:Hover TH {background:#FFFCD3} /* TODO: Add IE Hover Fix */
+	/* Misc. Column & Row Styles for Data Table 2 */
+	TABLE.data-table-2 .attention-row-1 TD {background:#FCC;color:#900}
+	TABLE.data-table-2 .edge-1 {border-left:none}
+	TABLE.data-table-2 .type-1 {text-align:center}
+	
+
+	/* Addition Table 1 */
+	/* Sample Usage >> http://www.enom.com/help/faq_resellers.asp */
+	TABLE.addition-table-1 {border-top:1px solid #ccc;width:100%}
+	TABLE.addition-table-1 TD {padding:3px}
+	TABLE.addition-table-1 .value-1 {font-weight:bold;text-align:right}
+	TABLE.addition-table-1 .total-1 TD {border-top:1px solid #ccc;background:#F2F2F2}
+
+
+
+
+/* =Lists
+-----------------------------------------------------------------------------*/
+	
+	/* Unordered List 1 */
+	/* Sample Usage >> http://www.enom.com/resellers/Interfaceinfo.asp */
+	UL.ul_1 {margin:1em 0;padding:0;list-style:none}	
+	UL.ul_1 LI {margin:1em 0 1em 25px;padding:0 0 0 15px;background:transparent url('/images/e3/e3_dotarrow_rht_blu.gif') 0 3px  no-repeat}	
+	UL.ul_1 UL {list-style:none;padding:0;margin:0}	
+	
+	
+	/* Ordered List 1 */
+	/* Sample Usage >> http://www.enom.com/resellers/Interfaceinfo.asp */
+	OL.ol_1 {margin:1em 0;padding:0}	
+	OL.ol_1 LI {margin:1em 0 1em 40px;padding:0}
+	OL.ol_1 UL {padding:0;margin:0}	
+	
+	
+	/* DL list 1 */
+	/* Sample Usage >> http://www.enom.com/resellers/newdocumentation.asp (main body section)*/
+	DL.list_1 {margin:0 0 20px 0}
+	DL.list_1 DT {padding:0 5px 0 0}
+	DL.list_1 DD {margin:2px 0 14px 0}
+	
+	
+	/* News list 1 */
+	/* Sample Usage >> http://www.enom.com/resellers/newdocumentation.asp (main body section)*/
+	UL.ul_news_1 {margin:0;padding:0;list-style:none}	
+	UL.ul_news_1 LI {margin:.8em 0;padding:0 0 0 15px;background:transparent url('/images/e3/e3_icon_news_general.gif') no-repeat 0 2px}	
+	UL.ul_news_1 LI.ALERT {background-image:url('/images/e3/e3_icon_news_alert.gif')}	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+/* =Domain Search
+-----------------------------------------------------------------------------*/
+	
+	
+	/* Domain Search 1 */
+	/* Sample Usage >> http://www.enom.com/myaccount/default.asp */
+	.domain_search_1 {margin:0}
+	.domain_search_1 .tld-search-opt:after {content:".";display:block;height:0;clear:both;visibility:hidden}
+	.domain_search_1 .tld-search-opt {margin:0;display:inline-block}
+	/* Hides from IE-mac \*/
+	* html .domain_search_1 .tld-search-opt {height:1%}
+	.domain_search_1 .tld-search-opt {display:block}
+	/* End hide from IE-mac */
+	.domain_search_1 .sld {float:left;width:120px}
+	.domain_search_1 .btn {float:left}
+	.domain_search_1 P {margin:0}
+	
+	
+	
+	/* Domain Search 2 */
+	/* Sample Usage >> http://www.enom.com/default.asp (logged-in)*/
+	.domain_search_2 {margin:0}
+	.domain_search_2 .tld-search-opt:after {content:".";display:block;height:0;clear:both;visibility:hidden}
+	.domain_search_2 .tld-search-opt {margin:0;display:inline-block}
+	/* Hides from IE-mac \*/
+	* html .domain_search_2 .tld-search-opt {height:1%}
+	.domain_search_2 .tld-search-opt {display:block}
+	/* End hide from IE-mac */
+	.domain_search_2 .sld {float:left;width:220px}
+	.domain_search_2 .tld {float:left}
+	.domain_search_2 .btn {float:left;margin-left:2px}
+	
+	
+	
+	
+	/* Domain Search 3 */
+	/* Sample Usage >> http://www.enom.com/domains/Register.asp */
+	.domain_search_3 {margin:0}
+	.domain_search_3 .tld-search-opt:after {content:".";display:block;height:0;clear:both;visibility:hidden}
+	.domain_search_3 .tld-search-opt {display:inline-block}
+	/* Hides from IE-mac \*/
+	* html .domain_search_3 .tld-search-opt {height:1%}
+	.domain_search_3 .tld-search-opt {display:block}
+	/* End hide from IE-mac */
+	.domain_search_3 .sld {float:left; display:inline;width:220px}
+	.domain_search_3 .tld {float:left;}
+	.domain_search_3 .btn {float:left;margin-left:2px}
+	.domain_search_3 P {margin:0;padding:3px 10px}
+
+
+
+
+
+	
+	
+
+/* =Misc
+-----------------------------------------------------------------------------*/
+
+	.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden}
+	.clearfix {display:inline-block}
+	/* Hides from IE-mac \*/
+	* html .clearfix {height:1%}
+	.clearfix {display:block}
+	/* End hide from IE-mac */
+	
+	
+	/* Error, Warning, Sucess Styles */
+	.errorNote {background:#FCC url('/images/e3/e3_anim_error.gif') no-repeat 5px 4px;color:#C00;border:1px solid #C00}
+	.warnNote {background:#FFC url('/images/e3/e3_anim_warn.gif') no-repeat 5px 4px;color:#660;border:1px solid #660}
+	.successNote {background:#CFC url('/images/e3/e3_anim_success.gif') no-repeat 5px 4px;color:#360;border:1px solid #360}
+	.errorNote, .warnNote, .successNote {padding:5px 5px 5px 24px !Important;font-weight:bold;margin-bottom:10px;text-align:left}
+	.errorNote P, .warnNote P, .successNote P {margin:0 0 10px 0}
+	
+
+	/* Popup window class */
+	BODY.popup-window {background:#FFF;padding:15px}
+	
+	
+	.footnote {font-size:90%;color:#777}
+	.attention {color:#900}
+	.attention-2 {color:#090}
+	
+	
+	/* Download Links */
+	/* Sample Usage >> http://www.enom.com/resellers/Interfaceinfo.asp */
+	A.pdf {padding-right:19px;background:url('/images/ico-pdf.gif') no-repeat right top}
+	A.doc {padding-right:19px;background:url('/images/ico-doc.gif') no-repeat right top}
+	A.zip {padding-right:17px;background:url('/images/ico-zip.gif') no-repeat right top}
+	A.txt {padding-right:17px;background:url('/images/ico-txt.gif') no-repeat right top}
+	
+
+	/* Back To Top Link */
+	/* Sample Usage >> http://www.bulk.com/bulk/membershipfaq.asp */
+	A.back-to-top {padding-left:17px;background:url('/images/bkg_back_to_top_link.gif') no-repeat left center}
+	
+	
+	/* Code Tag 1 */
+	/* Sample Usage >> http://www.enom.com/resellers/Interfaceinfo.asp */
+	CODE.code_1 {display:block;margin:1em 0;background:#eee;padding:5px;border-top:1px solid #ccc;border-bottom:1px solid #ccc}
+	
+	/* Link Highlight 1 */
+	/* Sample Usage >> http://www.enom.com/help/faq_resellers.asp */
+	P.link-highlight-1 {background:transparent url('/images/link-highlight-1.gif') no-repeat left center; display:block; padding:10px 0 10px 30px;}
+	
+
+
+
+
+
+
+
+/* =Dedicated Layouts
+-----------------------------------------------------------------------------*/
+
+	/* eNom Central Home Page */
+	/* Sample Usage >> http://www.enomcentral.com/default.asp */
+	#central_home #content_main {width:515px}
+	#central_home #content_sub {width:216px}
+	#central_home .box_1 .become_etp H5 {font-size:12px;font-style:italic;margin:0 0 .5em 0;line-height:1.2em}
+	#central_home .box_1 .become_etp H5 SPAN {display:block;text-align:right;font-size:18px}
+	#central_home .box_1 .become_etp P {margin:.3em 0}
+	#central_home .box_1 .become_etp UL {margin:1em 0;padding:0;list-style:none}	
+	#central_home .box_1 .become_etp LI {margin:.5em 0 .5em 5px;padding:0 0 0 15px;background:transparent url('/images/e3/e3_dotarrow_rht_blu.gif') 0 3px  no-repeat}	
+	#central_home .box_1 .become_etp UL UL {list-style:none;padding:0;margin:0}	
+
+
+	/* News Article Styles */
+	/* Sample Usage >> http://www.enom.com/news.asp */
+	#recent_news EM.post-info {color:#888;font-style:normal}
+	#recent_news A {font-weight:normal}
+
+
+	/* Collateral Layout */
+	/* Sample Usage >> http://www.enom.com/resellers/collateral.asp */
+	#collateral:after {content:".";display:block;height:0;clear:both;visibility:hidden}
+	#collateral {display:inline-block;margin:0;padding:5px 0;list-style:none}
+	/* Hides from IE-mac \*/
+	* html #collateral {height:1%}
+	#collateral {display:block}
+	/* End hide from IE-mac */
+	#collateral LI {float:left;width:260px;margin:0;padding:5px}
+	#collateral IMG {float:left;margin-right:10px}
+	#collateral A {float:left;width:120px;padding-top:10px}
+	
+	
+	/* My Account Summary */
+	/* Sample Usage >> http://www.enom.com/myaccount/default.asp */
+	#account-summary {border-top:3px solid #92A5BC;border-bottom:1px solid #92A5BC;padding:1px 0;margin-bottom:25px}
+	#account-summary .sub {background:#F5F7F9 url('/images/bkg_account_summary_1.gif') no-repeat bottom center;padding:1px 11px}
+
+
+
+	/* .CN Graphic Header */
+	/* Sample Usage >> http://www.enom.com/help/faq_dotcn.asp */
+	#dot-cn-header {border-top:3px solid #92A5BC;border-bottom:1px solid #92A5BC;padding:1px 0; }
+	#dot-cn-header DIV {height:175px;background:#3a7fcd url('/images/bkg_dot_cn_header.jpg') no-repeat;padding:1px 0}
+	#dot-cn-header H1 {color:#FFF;margin:15px 0 15px 20px;width:15em;font-size:30px;line-height:30px}
+	#dot-cn-header H2 {color:#FFF;margin:15px 0 10px 20px;font-size:20px}
+	#dot-cn-header FORM {margin:10px 0 0 20px}
+	#dot-cn-header .sld {float:left;width:220px}
+	#dot-cn-header .tld {float:left}
+	#dot-cn-header .btn {float:left;margin-left:2px}
+
+
+	/* .ORG Graphic Header */
+	/* Sample Usage >> http://www.enom.com/help/faq_dotorg.asp */
+	#dot-org-header {border-top:3px solid #92A5BC;border-bottom:1px solid #92A5BC;padding:1px 0}
+	#dot-org-header DIV {height:175px;background:#F7CB50 url('/images/bkg_dot_org_header.jpg') no-repeat;padding:1px 0}
+	#dot-org-header H1 {color:#FFF;margin:15px 0 0 20px;width:15em;font-size:30px}
+	#dot-org-header H2 {color:#FFF;margin:0 0 15px 20px;width:18em;font-size:24px}
+	#dot-org-header H3 {color:#FFF;margin:15px 0 10px 20px;font-size:20px}
+	#dot-org-header FORM {margin:10px 0 0 20px;padding:0}
+	#dot-org-header .sld {float:left;width:220px}
+	#dot-org-header .tld {float:left}
+	#dot-org-header .btn {float:left;margin-left:2px}
+	
+	
+	
+	
+	
+
+
+
+
+
+	
+
+/* =DEPRECATED STYLES
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------*/
+
+
+
+/* = Generic Wrappers (NEED TO REVIEW THESE STYLES)
+-----------------------------------------------------------------------------*/
+	/* Data Table 1 */
+	/* Sample Usage >> http://www.enom.com/resellers/getagreementpage.asp */
+	DIV.sample, DIV.task {padding: 5px 8px; margin-bottom: 10px;}
+
+	/* Sample Usage >> http://local.enom.com/help/transfers/transfer-domain-name-from-domaindiscount24-to-enom.asp */
+	DIV.task {background:#F5F7F9; border: 1px #92A5BC solid;}
+
+
+	/* Status  / Description (uses jQuery for div striping) */
+	/* Sample / Usuage http://enom.staging.local/help/transfers/status-messages.asp */
+	
+	div.stat-wpr {border: 1px #345699 solid; }
+	div.stat-wpr .stat {padding: 4px;}
+	div.stat-wpr .exp {float: right; width: 320px; font-size: 12px;  }
+	div.stat-wpr p {margin-top: 10px; }
+	div.stat-wpr h2 {background: #345699; color: #fff; font-size: 12px; padding: 4px; margin: 0;}
+	div.stat-wpr h2 span {font-size: 11px;}
+	div.stat-wpr h2 span.key {display: block; float: left; width: 220px;  }
+	div.stat-wpr h2 span.connect {display: none;}
+	div.stat-wpr h3 { width: 180px; float: left; padding: 8px; font-size: 12px;  }
+	div.stat-wpr h4 {text-transform: uppercase; font-size: 10px; margin-top: 10px;}
+	
+	.stat:after  {content:".";display:block;height:0;clear:both;visibility:hidden}
+			.stat {display:inline-block}
+			/* Hides from IE-mac \*/
+			* html .stat {height:1%}
+			.stat {display:block}
+			/* End hide from IE-mac */
+	
+	
+	 div.stat-wpr .stat.alt  {
+	 	background: #F5F7F9;
+	 	background: #eee;
+	 	border-top: 1px #ccc solid;
+	 	border-bottom: 1px #ccc solid;
+	 	margin: 0;
+	 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Default HTML Styles */
+	BODY {background:#E2E5EB url(/images/e3/e3_bg_body.gif);color:#444E61;font:11px verdana,Arial,Helvetica,sans-serif;margin:0;padding:0}
+	BODY.noBack {background:#fff}
+	TH {color:#FFF;background:#345699;font:bold 11px verdana,Arial,Helvetica,sans-serif}
+	TD {font:11px verdana,Arial,Helvetica,sans-serif}
+	H1,H2,H3,H4,H5,H6 {color:#254685;margin:10px 0;font-family:Arial, Helvetica, sans-serif}
+	h1 {font-size:24px} 
+	h2 {font-size:20px}
+	h3 {font-size:16px}
+	h4 {font-size:14px}
+	h5 {font-size:12px}
+	H6 {font-size:11px}
+	P {margin:10px 0}
+	A:Link, A:Visited {font-weight:bold;color:#345699;text-decoration:underline}
+	A:Hover, A:Active {font-weight:bold;color:#4B7FE4;text-decoration:none}
+	A IMG {border:none}
+	
+	#content_wrap A:Link, #content_wrap A:Visited, #content_wrap A:Hover, #content_wrap A:Active {font-weight:normal}
+	#content_wrap TH A:Link, #content_wrap TH A:Visited, #content_wrap TH A:Hover, #content_wrap TH A:Active {font-weight:bold}
+	#content_wrap .blueBack A:Link, #content_wrap .blueBack A:Visited, #content_wrap .blueBack A:Hover, #content_wrap .blueBack A:Active {font-weight:bold}
+
+
+
+
+/* SHELL STYLES */
+
+ /* START Header Styles */
+	.borderleft {background:#345699 url('/images/e3/e3_border_left.gif')}
+	.borderright {background:#345699 url('/images/e3/e3_border_right.gif')}
+	.bg_top {background:#b9c8df url('/images/e3/e3_bg_top.jpg') no-repeat}
+	.bg_top2 {background:#90a8cd url('/images/e3/e3_bg_top2.gif') no-repeat}
+	.bg_logo {background:#36599d url('/images/e3/e3_bg_logo.jpg') no-repeat}
+	.bg_nav {background:#b2c2dc url('/images/e3/e3_bg_nav.jpg') no-repeat}
+	.bgnavBack {background:#b2c2dc url('/images/e3/e3_bg_navgrad.gif')}
+	.bg_top3 {background:#8DA5CC url('/images/e3/e3_bg_top3.gif') no-repeat}
+	.dkstblueBack {background:#0F3072}
+	.whiteBack {background:#FFF}
+	.white {color:#FFF}
+	
+	A.e3white,A.e3white:active,A.e3white:visited {color:#FFF}
+	A.e3white:hover {color:#FFC000}
+	A.e3altMenu,A.e3altMenu:active,A.e3altMenu:visited {font-size:10px;color:#345699;text-decoration:none}
+	A.e3altMenu:hover {font-size:10px;color:#FFF;text-decoration:underline}
+	
+	
+ /* START NavMenu Styles */
+	#navmenus li a:link,#navmenus li a:active,#navmenus li a:visited,#navmenus li a:hover {text-decoration:none}
+	#navmenus li ul a:link,#navmenus li ul a:active,#navmenus li ul a:visited,#navmenus li ul a:hover {text-decoration:none}
+	#navmenus li ul a.locked:link,#navmenus li ul a.locked:active,#navmenus li ul a.locked:visited,#navmenus li ul a.locked:hover {text-decoration:none;background-image:url('/images/e3/e3_key.gif');background-repeat:no-repeat;background-position:100% 5px;}
+	#navmenus a.nolink:link,#navmenus a.nolink:active,#navmenus a.nolink:visited,#navmenus a.nolink:hover {text-decoration:none;cursor:s-resize}
+	
+	/* new menu styles */
+	#newnav, #newnav ul {padding:0;margin:0;list-style:none;line-height:1;background-color:#E7EBF7}
+	#newnav a {display:block;color:#2E405D;font-size:9px;font-family:verdana, arial, sans-serif;letter-spacing:1px}
+	#newnav li {float:left;line-height:18px}
+	#newnav li:hover {background-color:#CED7E7}
+	#newnav a:hover {background:#CED7E7}
+	#newnav a.arrow:hover {background: url('/global/navsupport/right-navblue.gif') no-repeat 165px 3px}
+	#newnav li ul {position:absolute;left:-999em;width:200px;margin-top:0;border-top:1px solid #fff;border-left:1px solid #9CA6B5;border-right:2px solid #4A596B;border-bottom:2px solid #4A596B}
+	#newnav li:hover ul {left:auto}
+	#newnav li:hover ul, #newnav li.sfhover ul {left:auto}
+	#newnav li ul li {border-bottom:1px solid white;border-right:0;width:200px;text-indent:2px;height:22px}
+	#newnav li ul li a {font-weight:normal;font-size:11px;font-family:sans-serif}
+	#newnav li ul li:hover {background-color:#fff}
+	#newnav li ul a:hover {background-color:#fff}
+	#newnav li ul ul {margin:-20px 10px 0px 200px}
+	#newnav li:hover ul ul, #newnav li.sfhover ul ul {left:-999em}
+	#newnav li:hover ul, #newnav li li:hover ul, #newnav li.sfhover ul, #newnav li li.sfhover ul {left:auto}
+	#newnav .arrow {background:url('/global/navsupport/right-navblue.gif') no-repeat 190px 3px}
+	#newnav .locked {background:url('/images/e3/e3_key.gif') no-repeat 190px 3px}
+	
+	/* Support for the "iehover-fix.js" */
+	* html ul.nav iframe {position:absolute;/* account for the border */left:-0.25em;top:-0.25em;z-index:0;filter:progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0)}
+	/* this is for IE 5.0 */
+	select.hide {visibility:hidden}
+	/* End Support for the "iehover-fix.js" */
+			
+ /* START myaccountbar Styles */	
+	#myaccountbar {padding:0 6px}
+	#myaccountbar a:link,#myaccountbar a:active,#myaccountbar a:visited {font-weight:bold;color:#345699}
+	#myaccountbar a:hover {font-weight:bold;color:#444E61}
+	
+ /* START crumbar Styles */
+	#crumbar {background:#E2E5EB url(/images/e3/e3_bg_crumbs.gif) left top;font-size:11px;color:#7E8BA3;font-weight:normal;margin:0px}
+	#crumbar a:link,
+	#crumbar a:active,
+	#crumbar a:visited,
+	#crumbar a:hover {text-decoration:none;font-weight:normal}
+
+ /* START Footer Styles */	
+	.footertext a:link,.footertext a:active,.footertext a:visited,.footertext a:hover {font-weight:normal;font-size:10px}
+	.footertext {font-weight:normal;font-size:10px}
+	#footermenu {background:#D2D6DD;padding:4px;border-top:1px solid #345699;border-bottom:1px solid #345699;font-size:10px}
+	#footermenu a:link,#footermenu a:active,#footermenu a:visited,#footermenu a:hover {font-weight:normal;font-size:10px}
+
+
+/* CONTENT STYLES NEED FOR HOME PAGE */
+
+/* START SearchBox Styles */
+	.DOMBOX {margin:0;padding:0;background:url('/images/e3/e3_bg_domainsearch_box.gif') no-repeat}
+	.DOMBOX tr {color:#666;margin:0;padding:0}
+	.DOMBOX td {font:normal 10px Verdana,Arial,Helvetica,sans-serif;color:#666;margin:0;padding:0}
+	.DOMBOX b {color:#D68408}
+	.DOMBOX a,.DOMBOX a:active,.DOMBOX a:visited {color:#144682;text-decoration:underline;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.DOMBOX a:hover {color:#36C;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.DOMBOX img {margin:0;padding:0}
+	.DOMBOX .LINE {margin:0;padding:0;background:url('/images/e3/e3_bg_dots.gif') repeat}
+	#memoryticker {filter:progid:DXImageTransform.Microsoft.GradientWipe(GradientSize=1.0 Duration=1)}
+	
+/* START ProdBox/AdBox Styles */
+	.PROD {margin:0;padding:0;background:#F5F7F9 url('/images/e3/e3_bg_prodbox.gif') repeat-y}
+	.PROD tr {color:#666;margin:0;padding:0}
+	.PROD td {font:normal 10px;color:#666;margin:0;padding:0}
+	.PROD ul {margin:0;padding:5px;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.PROD li {margin:5px 0 0;padding:0 0 0 10px;font:normal 9px;background:url('/images/e3/e3_dotarrow_rht_blu.gif') no-repeat 0 3px;list-style-type:none}
+	.PROD a,.PROD a:active,.PROD a:visited {color:#144682;text-decoration:none;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.PROD a:hover {color:#36C;text-decoration:underline;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.PROD img {margin:0;padding:0}
+
+/* START quick link style */
+	.RCOL4 {margin:0;padding:0; width: 216px; border: 1px solid #294D84;}
+	.RCOL4 ul {margin:0;padding:5px;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.RCOL4 li {margin:5px 0 0;padding:0 0 0 10px;font:normal 9px Verdana,Arial,Helvetica,sans-serif;background:url('/images/e3/e3_dotarrow_rht_blu.gif') no-repeat 0 3px;list-style-type:none}
+	.RCOL4 a,.RCOL a:active,.RCOL a:visited {color:#144682;text-decoration:none;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.RCOL4 a:hover {color:#36C;text-decoration:underline;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.RCOL4 img {margin:0;padding:0}
+	.RCOL4 li.ALERT {background:url('/images/e3/e3_icon_news_alert.gif') no-repeat;padding-left:15px}
+	.RCOL4 li.NEWS {background:url('/images/e3/e3_icon_news_general.gif') no-repeat;padding-left:15px}
+
+/* START Right Column Styles */
+	.RCOL {margin:0;padding:0;background:url('/images/e3/e3_bg_rhtcolm.gif') repeat-y}
+	.RCOL tr {color:#666;margin:0;padding:0}
+	.RCOL td {font:normal 10px;color:#666;margin:0;padding:0}
+	.RCOL ul {margin:0;padding:5px;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.RCOL li {margin:5px 0 0;padding:0 0 0 10px;font:normal 9px Verdana,Arial,Helvetica,sans-serif;background:url('/images/e3/e3_dotarrow_rht_blu.gif') no-repeat 0 3px;list-style-type:none}
+	.RCOL a,.RCOL a:active,.RCOL a:visited {color:#144682;text-decoration:none;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.RCOL a:hover {color:#36C;text-decoration:underline;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.RCOL img {margin:0;padding:0}
+	.RCOL li.ALERT {background:url('/images/e3/e3_icon_news_alert.gif') no-repeat;padding-left:15px}
+	.RCOL li.NEWS {background:url('/images/e3/e3_icon_news_general.gif') no-repeat;padding-left:15px}
+	
+	.RCOL2 {margin:0;padding:0;background:#F5F7F9 url('/images/e3/e3_bg_prodbox.gif') repeat-y}
+	.RCOL2 tr {color:#666;margin:0;padding:0}
+	.RCOL2 td {font:normal 10px;color:#666;margin:0;padding:0}
+
+	.RCOL3 {margin:0;padding:0;background:#F5F7F9 url('/images/e3/e3_bg_rcol3.gif') repeat-y}
+	.RCOL3 tr {color:#666;margin:0;padding:0}
+	.RCOL3 td {font:normal 10px;color:#666;margin:0;padding:0}
+
+/* START Customer Segment Box Styles */
+	.CUST {margin:0;padding:0;background:#F5F7F9;border:solid 1px #345699}
+	.CUST td {font:normal 10px;color:#666;margin:0;padding:0}
+	.CUST ul {margin:0;padding:5px 5px 5px 10px;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.CUST li {margin:5px 0 0;padding:0 0 0 10px;font:normal;background:url('/images/e3/e3_dotarrow_rht_blu.gif') no-repeat 0 3px;list-style-type:none}
+	.CUST a,.CUST a:active,.CUST a:visited {color:#144682;text-decoration:none;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.CUST a:hover {color:#36C;text-decoration:underline;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+	.CUST img {margin:0;padding:0;border:none}
+	.CUST h4 {margin:0;font:bold 14px Verdana,Arial,Helvetica,sans-serif;color:#fff;background-color:#345699;padding:6px}
+
+/* ENOM default page box style */
+	.defaultBox {margin:0;padding:0;background:#fff url('/images/e3/e3_bg_defaultbox.gif') repeat-y}
+	.defaultBox tr {color:#666;margin:0;padding:0}
+	.defaultBox td {font:normal 12px;color:#666;margin:0;padding:0} 
+	.defaultBox li {margin:4px 0;padding:0 0 0 10px;font-size:12px;list-style-type:none;background:url('/images/e3/e3_dotarrow_rht_ETP.gif') no-repeat 0 3px}
+	.defaultBox p {margin:0;padding:0}
+
+
+/* MISC CONTENT STYLES */
+
+/* Loginbox */
+	#loginbox {padding:15px;float:right;background:#6699cc;width:270px;padding-bottom:30px}
+	#loginbox p,#loginbox h2 {color:#FFF}
+	#loginbox p br {display:none}
+	#loginbox ul {margin:0;list-style:none}
+	#loginbox li {background:url('/images/e3/e3_dotarrow_rht_DOM.gif') no-repeat 0 3px;padding-left:15px;color:#ccc}
+	#loginbox a:Link, #loginbox a:Visited, #loginbox a:Hover, #loginbox a:Active {color:#fff}
+	#loginbox a:hover {color:#cc0000}
+	#loginbox h2 {border-bottom:1px solid #B6CEE6;padding-bottom:5px}
+	#loginbox p {font-size:12px;text-align:right}
+	div#cred {padding:0;text-align:right;width:230px;margin-left:30px}
+	div#cred label {margin:2px 10px 10px 2px;padding:0;float:left;color:#fff}
+	div#cred input {margin:0 0 10px 0;padding:0;float:left;width:130px}
+	div.optin {padding:0;width:280px;text-align:left}
+	div.optin input {margin:0;padding:0;float:left;width:20px}
+	div.optin label {margin:0 0 10px 2px;width:140px;padding:0;float:left;color:#fff}
+	#xtrlinks {border-top:1px solid #B6CEE6;padding-top:5px}

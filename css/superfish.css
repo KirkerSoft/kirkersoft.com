@@ -1,0 +1,220 @@
+nav {
+	position:relative;
+	padding:33px 0 0 198px
+}
+.sf-menu {
+	list-style:none;
+	display:block;
+}
+#menu-icon {
+	display:none
+}
+.sf-menu a,.sf-menu a span {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.sf-menu > li {
+	position:relative;
+    float:left;
+
+}
+.sf-menu a:hover{text-decoration:none}
+
+.sf-menu > li:first-child >a{
+	background:none;
+	margin:0;
+	padding:0
+}
+
+
+.sf-menu > li > a {
+	display:block;background:url(../images/border-item.gif) no-repeat 0 17px;	
+	width:128px;
+	text-align:center
+}
+.sf-menu > li:first-child > a>span{margin:0 1px 0 0 }
+
+
+.sf-menu > li > a> span {
+	color:#1a1a1a;
+	display:block;
+	z-index:10;
+	position:relative;
+	font-family: 'Oswald', sans-serif;
+	font-size:13px;
+	line-height:18px;
+	text-transform:none;
+	font-weight:bold;
+	text-shadow:1px 1px #ffffff;
+	text-transform:uppercase;
+	padding:22px 0;
+	background:url(../images/point.png);
+	margin:0 1px 0 2px;
+	 border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;	
+
+}
+.sf-menu > li.sfHover > a>span, .sf-menu > li:hover > a>span, .sf-menu > li.current > a>span {
+	text-decoration:none;
+	text-shadow:none;
+	background:#d5a015
+}
+.sf-menu > li.sfHover > a .sf-sub-indicator, .sf-menu > li:hover > a .sf-sub-indicator, .sf-menu > li.current > a .sf-sub-indicator {
+	background-position: 0 bottom
+}
+.sf-menu > li > a .sf-sub-indicator {
+	display:inline-block;
+	width:7px;
+	height:4px;
+	position:relative;
+	background:url(../images/indicator.png) 0 0 no-repeat;
+	margin:9px 0 0 4px;
+	display:none
+}
+/***submenu***/
+.sf-menu ul {
+	position:absolute;
+	top:-999em;
+	z-index:99;
+	width:203px;
+	display:none;
+	padding:24px 20px 14px 20px;
+	background:#d5a015;
+    border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+}
+.sf-menu ul ul {
+	background:none;
+	position:relative;
+	padding-bottom:0;
+	padding-top:14px
+}
+.sf-menu li li {
+	width:100%;
+	padding:0;
+	position:relative;
+	margin-bottom:12px;
+	display:block;
+	text-align:left !important
+}
+.sf-menu li li a {
+	display:inline-block;
+	padding:0 0 0 12px;
+	background:url(../images/marker-item.png) no-repeat -4px 7px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:18px;
+	color:#181818;
+	text-align:left !important;font-weight:bold
+}
+.sf-menu li li li a {
+	font-size:12px;
+	line-height:14px;
+	background-position:-4px 5px
+}
+.sf-menu li li > a:hover, .sf-menu li li.sfHover > a {
+	text-decoration:none;
+	color:#fff;
+	background-position: 0 7px
+}
+.sf-menu li li li > a:hover {
+	background-position: 0 5px
+}
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+	left:2px;
+	top:63px;
+}
+ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul {
+	top:-999em;
+}
+/***subsubmenu***/
+
+
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {
+	left:-8px;
+	top:0px;
+}
+ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li ul {
+	top:-999em;
+}
+
+/* Design for a width of 768px */
+@media only screen and (max-width: 995px) {
+
+.sf-menu > li > a{width:100px;}
+.sf-menu > li > a > span {
+  padding: 18px 0
+}
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+	left:2px;
+	top:55px;
+}
+
+
+.sf-menu > li > a .sf-sub-indicator {
+display:none
+}
+}
+@media only screen and (max-width: 767px) {
+	.main{width:420px}
+    .sf-menu{float:none;}
+	
+	.sf-menu .sf-sub-indicator {	
+		display:inline-block !important;
+		background: url(../images/indicator.png) no-repeat;		
+	}
+	.sf-menu > li li > a > .sf-sub-indicator {
+		top:23px
+	}	
+	.sf-menu ul,.sf-menu ul ul {min-width:100%; position: relative; left: 0 !important; top:0px !important; padding:0;}
+	
+	nav {padding:0;
+		width:100%;
+		float:none;
+	}
+	.sf-menu > li{width:100%;margin-bottom:5px;background:#d3d3d3;  
+	 border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	float:none;
+	-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;}
+	.sf-menu > li > a,.sf-menu > li:first-child >a{display:block;width:95%;padding:16px 0 16px 21px;text-align:left;background:none;
+	}		
+	
+.sf-menu > li >a >span{display:inline-block;padding:0;background:none;margin:0;text-shadow:none
+	}
+	
+	.sf-menu > li.sfHover , .sf-menu > li:hover , .sf-menu > li.current  {
+	text-decoration:none;	
+	background:#d5a015
+}
+	
+	.sf-menu > li.sfHover > a>span, .sf-menu > li:hover > a>span, .sf-menu > li.current > a>span {
+	text-decoration:none;
+	text-shadow:none;
+	background:none}
+
+	
+	
+	/***submenu***/
+	.sf-menu ul {position:static; width:100%;}	
+	ul.sf-menu ul li{display:block;padding-left:20px}
+	ul.sf-menu ul li li{display:block;padding-left:10px}
+	ul.sf-menu ul li li a{display:block;padding-left:12px}
+	ul.sf-menu ul ul li a{display:inline-block;}
+	/***subsubmenu***/
+	ul.sf-menu ul{width:100%; background-color:transparent;padding-bottom:12px}	
+	ul.sf-menu ul ul{padding:12px 0 0}
+	
+
+}
+
+/* Design for a width of 480px and 320px*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

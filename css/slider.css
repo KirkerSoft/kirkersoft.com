@@ -1,0 +1,202 @@
+.slider-box{
+	width:952px;
+	height:501px;	
+	position:relative;
+	margin: 0 auto;z-index:10
+}
+
+.slides_container{
+	width:952px;
+	height:501px;
+	
+
+}
+.slide{width:950px; height:auto;    
+  border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;border:1px solid #fff;
+	display:none}
+
+.slide img{  border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px}
+.slider-box-bottom{position:absolute;bottom:32px;left:39px;overflow:hidden;z-index:100;width:910px}
+.slider-btns{float:left;margin-bottom:6px}
+.button{
+	display:inline-block;
+    text-transform:uppercase;
+   padding:12px 0 13px;
+   border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	background:#d5a015;
+	font:14px/18px 'Oswald', sans-serif;
+	color:#fff;width:151px;text-align:center;margin-right:3px;
+	-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+	
+	}
+.button.a{background:#459389}
+.button:hover{background:#9c9c9c;text-decoration:none}
+.slider-phone{float:right;width:186px;color:#1a1a1a;font-weight:bold;font-family: 'Oswald', sans-serif;font-size:16px;line-height:18px;}
+.slider-phone span{display:block;color:#459389;font-size:18px;line-height:20px;padding-top:3px}
+
+
+/* Control Nav */
+.pagination {
+    left: 40px;
+    position: absolute;
+    top: 332px;
+    z-index: 100;
+}
+	.pagination li{
+		font-size:0px;
+		line-height:0;
+		margin-right:2px;
+		display:inline-block;
+		text-indent:-5000px;
+	}
+		.pagination li a{
+			height:21px;
+			width:21px;font-size:0;line-height:0;
+			background: url(../images/pags.png) 0 0 no-repeat;
+			display:block;
+			overflow:hidden;
+		}
+			.pagination li.current a,.pagination li a:hover{background-position:0 bottom;}
+			.pagination li.current a{cursor:default;}
+
+/* Caption */
+.caption{
+	z-index:999;
+	position:absolute;
+	top:109px;
+	left:0px;		
+	overflow:hidden;
+	background:none;
+	font:56px/68px 'Oswald', sans-serif;
+	color:#1a1a1a;
+}
+
+.caption span{display:block}
+.caption.item2 {font-size:60px;}
+.caption.item2 span {font-size:46px;margin-top:-4px}
+.caption.item2 strong {font-size:60px}
+.caption strong{display:block;text-transform:uppercase;font-size:65px}
+.caption.item3{font-size:47px;line-height:56px;text-transform:uppercase;font-weight:bold}
+.caption.item4{font-size:42px;line-height:52px;}
+.caption.item4 span{font-size:47px;}
+.caption.item4 strong{font-size:60px;line-height:74px;text-transform:uppercase;}
+
+.caption .indents1{padding:0 0 0 40px;}
+
+		
+		
+
+@media only screen and (max-width: 995px){
+	.slider-box {	
+    width: 760px; 
+	height: 400px;
+}
+	.slides_container{width: 758px;height:400px;}
+	.slide{width:758px;}
+	.caption{top: 58px;}
+	.slider-box-bottom {
+    width: 724px;
+  
+}
+
+/* Caption */
+.caption{
+	top:70px;
+	font:46px/58px 'Oswald', sans-serif;
+
+}
+
+.caption.item2 {font-size:50px;}
+.caption.item2 span {font-size:36px;}
+.caption.item2 strong {font-size:50px}
+.caption strong{font-size:55px}
+.caption.item3{font-size:37px;line-height:46px;}
+.caption.item4{font-size:32px;line-height:42px;}
+.caption.item4 span{font-size:37px;}
+.caption.item4 strong{font-size:50px;line-height:64px;}
+.pagination {top: 260px;
+}
+
+}
+@media only screen and (max-width: 767px){
+	.slider-box {	
+    width: 420px; 
+	height: 224px;
+}
+	.slides_container{width: 420px;height:224px;}
+	.slide{width:420px;}	
+	.slider-box-bottom {
+    width: 420px;
+  
+}
+.slider-btns {
+    float: left;
+    margin-bottom: 9px;
+}
+.slider-box-bottom {
+    bottom: 13px;
+    
+
+    width: 420px;
+
+}
+.slider-phone {  
+    float: left; 
+    width: 310px;
+}
+.slider-phone span {  
+    display: inline-block;margin-top:-4px
+
+}
+/* Caption */
+.caption{display:none
+}
+
+.pagination {top: 22px;
+}
+
+}
+@media only screen and (max-width: 479px){
+.slider-box {	
+    width: 300px; 
+	height: 160px;
+}
+.slides_container{width: 300px;height:160px;}
+	.slide{width:298px;}	
+
+.slider-btns {
+    float: left;
+    margin-bottom: 9px;
+}
+.slider-box-bottom {
+    bottom: 13px;
+    
+
+    width:234px;
+
+}
+.slider-phone {  
+    float: left; 
+    width: 310px;
+}
+.slider-phone span {  
+    display: inline-block;margin-top:-4px
+
+}
+/* Caption */
+.caption{display:none
+}
+
+.pagination {top: 10px;
+}
+.button{width:107px}
+}

@@ -1,0 +1,65 @@
+
+/***** contact form *****/
+#contact-form {
+	position:relative;
+	vertical-align:top;	
+	z-index:1;
+	margin:2px 0 0 0
+}
+	#contact-form fieldset {border:none;padding:0; width:100%; overflow:hidden;}
+			#contact-form label {display:block; min-height:50px; position:relative;}
+			#contact-form .message{min-height:269px;}
+			#contact-form input, #contact-form textarea {
+				padding: 11px 14px  12px;
+				margin:0;
+				font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+				color:#b7b7b7;
+				background:#fff;
+				outline:none;
+				border:none;
+				width:272px;
+				 box-shadow:none;
+			 border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;color:#989898
+	       
+			}
+			#contact-form .area .error {float:none;}
+			#contact-form textarea {
+				width:561px;
+				height:211px;
+				resize:none;
+				overflow:auto;
+			}
+			#contact-form .success {display:none; margin-bottom:20px;color:#000}
+			#contact-form .error,
+			#contact-form .empty {
+				color:#f00;
+				font-size:11px;
+				line-height:1.27em;
+				display:none;
+				overflow:hidden;
+				margin-bottom:5px;
+			}
+			
+			
+			
+.buttons-wrapper{ position:absolute;bottom:0;right:1px}
+.buttons-wrapper a {cursor:pointer;margin-left:15px;}
+
+
+@media only screen and (max-width: 995px) {
+
+	#contact-form textarea{width:440px;}
+}
+@media only screen and (max-width: 767px){	
+ #contact-form textarea{width:388px;}
+
+}
+
+
+
+@media only screen and (max-width: 479px){
+
+	#contact-form input, #contact-form textarea{width:270px;}
+}

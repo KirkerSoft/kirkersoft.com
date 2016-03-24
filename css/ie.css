@@ -1,0 +1,15 @@
+.box-quote,.box-menu,.button,.box-1,.box-team,#contact-form input, #contact-form textarea {behavior: url(js/PIE.htc); position:relative;}
+.sf-menu ul{behavior: url(js/PIE.htc);}
+.box-1{box-shadow:none}
+body{min-width:980px;}
+
+.box-1 figure .active {
+	display:none
+}
+.box-1:hover figure .active {
+	display:block
+}
+
+.sf-menu > li.sfHover > a>span, .sf-menu > li:hover > a>span, .sf-menu > li.current > a>span {background:url(../images/part-item-ie.png) no-repeat 0 0;}
+.sf-menu > li > a{width:121px}
+h1, h2, h3, h4, h5, h6 {letter-spacing:-1px}

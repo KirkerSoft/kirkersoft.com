@@ -1,153 +1,238 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
-		<title>Kirker&nbsp;Enterprises - Welcome</title>
-		<link href="style.css" type="text/css" rel="stylesheet">
+	<title>KirkerSoft</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/ui.totop.css" type="text/css" media="screen">
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>	
+	<script src="js/slides.min.jquery.js"></script>
+	<script src="js/max-height.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+		$(window).load(function() {	
+			$('#slides').slides({
+				effect: 'fade',
+				fadeSpeed:700,
+				preload: true,
+				play: 7000,
+				pause: 3000,
+				generatePagination: true,
+				crossfade: true,
+				hoverPause: true,
+				animationStart: function(current){
+					$('.caption').animate({left:-900},300);
+					if (window.console && console.log) {console.log('animationStart on slide: ', current);};
+				},
+				animationComplete: function(current){
+					$('.caption').animate({left:0},300);
+					if (window.console && console.log) {console.log('animationComplete on slide: ', current);};
+				},
+				slidesLoaded: function() {$('.caption').animate({left:0},300);}
+			});
+		});		
+	</script>
 	</head>
-	<body>
-		<table style="height:100%;" width="100%" border="0" cellspacing="0" cellpadding="0">
-			<tr>
-				<td style="height:271px; width:100%;">
-					<table style="width:100%; height:100%" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td style="width:50%">
-								<table style="width:100%; height:100%;" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td style="background-image:url(images/rez_top.jpg); background-repeat:repeat-x; width:50%; height:271px; background-position:right top;"><img src="images/spacer.gif" alt="" height="1" width="1"></td>
-									</tr>
-								</table>
-							</td>
-							<td>
-								<div align="center">
-									<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" height="271" width="766" name="KirkerSoft">
-										<param name="play" value="true">
-										<param name="movie" value="flash/menu.swf?button=1">
-										<param name="quality" value="high">
-										<param name="menu" value="false">
-										<embed height="271" name="KirkerSoft" pluginspage="http://www.macromedia.com/go/getflashplayer" src="flash/menu.swf?button=1" quality="high" type="application/x-shockwave-flash" width="766" play="true"> 
-									</object></div>
-							</td>
-							<td style="width:50%">
-								<table style="width:100%; height:100%;" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td style="background-image:url(images/rez_top.jpg); background-repeat:repeat-x; width:50%; height:271px; background-position:right top;"><img src="images/spacer.gif" alt="" height="1" width="1"></td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			<tr height="225">
-				<td style="background-color:#FFFFFF;" width="100%" height="225">
-					<div align="center">
-						<table width="100%" border="0" cellspacing="0" cellpadding="0">
-							<tr>
-								<td width="50%"></td>
-								<td style="width:766px;">
-									<div align="center"></div>
-									<div align="left">
-										<img src="images/spacer.gif" alt="Kirker&nbsp;Enterprises - Computer Services Hardware Software Web Design - RV&nbsp;Parts Rentals - Property Preservation Inspections" height="1" width="766" border="0">
-										<div align="center">
-											<h2>Welcome</h2>
-										</div>
-									</div>
-									<div align="center">
-										<table width="100%" border="0" cellspacing="0" cellpadding="0">
-											<tr>
-												<td width="50%">How can we help you today? Are you looking for:
-													<div align="left">
-														<div align="left">
-															<ul>
-																<ul>
-																	<ul>
-																		<div align="left">
-																			<li><a href="services/index.html">Network Services</a>
-																			<li><a href="hardware/index.html">Computer Hardware</a>
-																			<li><a href="software/index.html">Computer Software</a>
-                                                                            <li><a href="http://support.kirkersoft.com">Submit Support Ticket</a>
-                                                                            <li><a href="aboutus.html">About KirkerSoft</a>
-																			<li><a href="contactus.html">Contact KirkerSoft</a>
-																		</div>
-																	</ul>
-																</ul>
-															</ul>
-														</div>
-													</div>
-												</td>
-												<td>
-													<div align="center">
-														<b>Coming Soon:</b></div>
-													<p>Work with Microsoft Office documents at affordable prices.</p>
-													<p>Get our OpenOffice package for just $39.</p>
-													<p>You can also get this application installed for just $60 more<br>
-														(Limited availability in most US&nbsp;markets)</p>
-												</td>
-											</tr>
-										</table>
-									</div>
-									<div align="left">
-										<div align="center">
-											<p>
-												<script type="text/javascript" language="javascript" src="http://www.qksz.net/1e-cqtg"> </script>
-											</p>
-											<p></p>
-										</div>
-									</div>
-								</td>
-								<td width="50%"></td>
-							</tr>
-						</table>
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td style="height:100%; width:100%; background-color:#E1E1E1">
-					<table style="width:100%; height:100%; background-color:#E1E1E1" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-							<td valign="top" width="25%" class="end"><p><a href="http://www.buyconcord.net" target="_blank"><img src="images/buyconcord.jpg" width="120" height="38" border="0"></a></p>
-							  <p><a href="http://www.rvingworld.com">RVer Resources</a><br>
-							     <a href="http://www.kirkerenergy.com">Alternative Energy</a>
-						      </p>
-							  <p>
-									<script type="text/javascript" language="javascript" src="http://www.qksz.net/1e-cr01"> </script>
-							  </p>
-						  </td>
-							<td width="766">
-								<table style="margin-top:19px; width:766px; height:58px;" border="0" cellspacing="0" cellpadding="0">
-									<tr>
-										<td class="end">
-											<div align="center">
-												<font size="-1"><a href="http://www.kirkershop.com/hardware/">Computer Hardware Sales</a> |&nbsp;<a href="http://www.kirkershop.com/software/">Computer Software Sales</a> | <a href="http://www.kirkersoft.com/services/">Computer Services</a><br>
-													<a href="http://remote.wsiab.net/">Remote Support</a> | <a href="http://www.kirkernet.com/networking/">Computer Networking</a> | <a href="http://www.kirkerwebdesign.com/webdesign/">Internet Web Design</a></font>
-												<div align="center">
-													<p><b><a href="http://www.kirkersoft.com/cgi-bin/heat/ttx.cgi?cmd=newticket&sid=&style=">Submit Support Ticket</a><br>
-												    <a href="login.html">Client Login</a><br>
-															<a href="http://mail.wsiab.net">Email Login</a></b></p>
-													<p><font size="-1">&copy;2007 <a href="http://www.wsiab.net">Kirker Enterprises</a> | <a href="privacy.html">Privacy Policy</a> | <a href="privacy.html#terms">Terms Of Use</a></font></p>
-											  </div>
-											</div>
-										</td>
-									</tr>
-								</table>
-								&nbsp;</td>
-							<td valign="top" width="25%" class="end">
-								<div align="right">
-									<a href="http://www.openoffice.org" target="_blank"><img title="Use OpenOffice.org" src="http://marketing.openoffice.org/art/galleries/marketing/web_buttons/nicu/120x60_3_get.png" alt=" Use OpenOffice.org" height="60" border="0"></a><br>
-									<a href="http://www.spreadfirefox.com/?q=affiliates&id=106855&t=59" target="_blank"><img title="Get Firefox!" src="http://sfx-images.mozilla.org/affiliates/Buttons/firefox2/firefox-spread-btn-2.png" alt="Get Firefox!" height="60" border="0"/></a></div>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</table>
-<script type="text/javascript">
-document.write(unescape("%3Cscript src='http://www.google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-3266499-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
-	</body>
+	<body id="home">
+<!--======================== header ===========================-->
+<header>
+      <div class="main"> 
+    <!--======================== logo ============================-->
+    <h1><a href="index.html"></a></h1>
+    <div class="row-nav"> 
+          <!--======================== menu ============================-->
+          <nav>
+        <div id="menu-icon">Menu <span></span></div>
+        <ul class="sf-menu">
+              <li class="current"><a href="index.html"><span>home</span></a></li>
+              <li><a href="index-1.html"><span>company</span></a></li>
+              <li><a href="index-2.html"><span>services</span></a>
+            <ul>
+                  <li><a href="#">Managed Services</a></li>
+                  <li><a href="#">Virtual Office / Private Cloud</a></li>
+                  <li><a href="#">Salad</a>
+                <ul>
+                      <li><a href="#">Email</a></li>
+                      <li><a href="#">Web Hosting</a></li>
+                      <li class="last-item"><a href="#">Offsite Backup</a></li>
+                    </ul>
+              </li>
+                  <li><a href="#">Strategic Planning</a></li>
+                  <li><a href="#">Installation</a></li>
+                  <li class="last-item"><a href="#">Mobile IT</a></li>
+                </ul>
+          </li>
+              <li><a href="index-3.html"><span>projects</span></a></li>
+              <li class="last-item"><a href="index-4.html"><span>contacts</span></a></li>
+            </ul>
+      </nav>
+          <div class="clear"></div>
+        </div>
+  </div>
+      <!--======================== slider ===========================-->
+      
+      <div class="slider-box">
+    <div class="slider-box-bottom">
+          <div class="slider-btns"> <a href="#" class="button ">register</a> <a href="#" class="button a">sign in</a> </div>
+          <div class="slider-phone">Call us toll free: <span>1 - 800 - 123 - 1234</span></div>
+        </div>
+    <div id="slides">
+          <div class="slides_container">
+        <div class="slide"> <img src="images/slide-1.jpg" alt="">
+              <div class="caption item1">
+            <div class="indents1"> We are experts in managing <span>&amp; supporting</span> <strong>it operations</strong> </div>
+          </div>
+            </div>
+        <div class="slide"> <img src="images/slide-2.jpg" alt="">
+              <div class="caption item2">
+            <div class="indents1"> Use <strong>information technology </strong> <span>to meet your business objectives </span> </div>
+          </div>
+            </div>
+        <div class="slide"> <img src="images/slide-3.jpg" alt="">
+              <div class="caption item3">
+            <div class="indents1"> Networking. Database Management.<br>
+                  Applications Development.<br>
+                  Project Management. </div>
+          </div>
+            </div>
+        <div class="slide"> <img src="images/slide-4.jpg" alt="">
+              <div class="caption item4">
+            <div class="indents1"> What can we do for you <span>through information</span> <strong>Technology Consulting? </strong> </div>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+    </header>
+<div class="main">
+      <div class="border-horiz"></div>
+    </div>
+<!--======================== content ===========================-->
+<section id="content">
+      <div class="container_24">
+    <div class="p3">
+          <article class="grid_6">
+        <div class="box-1 maxheight">
+              <figure><img src="images/home-img1.png " alt="" /><img class="active" src="images/home-img1-hover.png " alt="" /></figure>
+              <h4>Technical<br>
+            Support</h4>
+              <p>Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce varius mi cum sociis natoque. </p>
+              <a href="#" class="link-1">read more</a> </div>
+      </article>
+          <article class="grid_6">
+        <div class="box-1 maxheight">
+              <figure><img src="images/home-img2.png " alt="" /><img class="active" src="images/home-img2-hover.png " alt="" /></figure>
+              <h4>Network<br>
+            Solutions</h4>
+              <p>Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce varius mi cum sociis natoque. </p>
+              <a href="#" class="link-1">read more</a> </div>
+      </article>
+          <article class="grid_6">
+        <div class="box-1 maxheight">
+              <figure><img src="images/home-img3.png " alt="" /><img class="active" src="images/home-img3-hover.png " alt="" /></figure>
+              <h4>Database<br>
+            Management</h4>
+              <p>Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce varius mi cum sociis natoque. </p>
+              <a href="#" class="link-1">read more</a> </div>
+      </article>
+          <article class="grid_6">
+        <div class="box-1 maxheight">
+              <figure><img src="images/home-img4.png " alt="" /><img class="active" src="images/home-img4-hover.png " alt="" /></figure>
+              <h4>Web<br>
+            Development</h4>
+              <p>Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce varius mi cum sociis natoque. </p>
+              <a href="#" class="link-1">read more</a> </div>
+      </article>
+          <div class="clear"></div>
+        </div>
+    <div class="wrapper p22">
+          <article class="grid_10 prefix_1">
+        <h2>Why choose us?</h2>
+        <div class="txt-1">Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis natoque. penatibus et magnis dis parturient montes nascetur ridiculus</div>
+        <div class="wrapper">
+              <figure class="img-indent"><img src="images/home-img5.png " alt="" /></figure>
+              <div class="overflow">
+            <blockquote class="quote-1">&nbsp;Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Nulla dui. </blockquote>
+          </div>
+            </div>
+        <div class="name-1"><strong>John Lester </strong>(Owner)</div>
+        <!--<a href="#" class="link-2 fright">read more</a>-->
+        <div class="clear"></div>
+      </article>
+          <article class="grid_5 prefix_1">
+        <h2>Featured:</h2>
+        <ul class="list-1">
+              <li><a href="#"> Managed Services</a></li>
+              <li><a href="#">Virtual Office / Private Cloud</a></li>
+              <li><a href="#">Strategic Planning</a></li>
+              <li><a href="#">Installation</a></li>
+              <li><a href="#">Mobile IT</a></li>
+              <li><a href="#">Network Security</a></li>
+            </ul>
+      </article>
+          <article class="grid_5 prefix_2">
+        <h2>Popular:</h2>
+        <ul class="list-1">
+              <li><a href="#">Email</a></li>
+              <li><a href="#">Web Hosting</a></li>
+              <li><a href="#">Offsite Backup</a></li>
+              <li><a href="#">Internet Access</a></li>
+              <li><a href="#">VoIP</a></li>
+              <li><a href="#">Digital Media</a></li>
+            </ul>
+      </article>
+        </div>
+  </div>
+    </section>
+
+<!--======================== footer ===========================-->
+<div class="container_24">
+      <div class="main">
+    <footer>
+     <div class="privacy"><span>KirkerSoft
+                consultant</span> &copy; 2016 <a href="index-5.html">Privacy Policy</a></div>
+          
+          <div class="wrapper">     
+             
+        <article class="grid_4 prefix_7 alpha">
+              <h3>Our company:</h3>
+              <ul class="list-1">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Work team</a></li>
+            <li><a href="#">What we do</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Management</a></li>
+          </ul>
+            </article>
+        <article class="grid_4 prefix_1">
+              <h3>Main services:</h3>
+              <ul class="list-1">
+            <li><a href="#">Market research</a></li>
+            <li><a href="#">Online support</a></li>
+            <li><a href="#">Financial services</a></li>
+            <li><a href="#">Business help</a></li>
+            <li><a href="#">Premises</a></li>
+          </ul>
+            </article>
+        <article class="grid_4 prefix_1 ">
+              <h3>Related links:</h3>
+              <ul class="list-1">
+            <li><a href="#">Strategies</a></li>
+            <li><a href="#">Recent issues</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+            </article>
+      </div>
+        </footer>
+  </div>
+    </div>
+</body>
 </html>

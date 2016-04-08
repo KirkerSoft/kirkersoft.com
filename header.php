@@ -14,19 +14,21 @@
 	<script src="./js/jquery.ui.totop.js"></script>
 	<script src="./js/script.js"></script>
 <?php
-	if ($location == 'page5') {
+	if ($location=='page5') {
 		echo "<script>$(window).load(function(){";
 		echo "	$('#contact-form').forms({";
 		echo "		ownerEmail:'johnl@kirkersoft.com'";
 		echo "	})";
 		echo "})</script>";
 	}
+	elseif ($location=='home') {
+		echo "<script src=\"./js/slideshow.js\"></script>";
+	}
 ?>
 </head>
 <?php
 	echo '<body id="' . $location . '">';
 ?>
-
 <!--======================== header ===========================-->
 <header>
   <div class="main"> 

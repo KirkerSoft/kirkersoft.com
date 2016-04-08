@@ -1,5 +1,5 @@
 <?php
-	$location='page1';
+	$location='page2';
 	include_once('header.php');
 ?>
 <section id="content">

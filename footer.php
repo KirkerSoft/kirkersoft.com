@@ -1,7 +1,7 @@
 <div class="container_24">
   <div class="main">
     <footer>
-    <div class="privacy"><span>&copy;2016 Kirker Enterprises <a href="privacy.php">Privacy Policy</a></span></div>
+    <div class="privacy"><span>&copy;2016&nbsp;Kirker&nbsp;Enterprises<br> <a href="privacy.php">Privacy Policy</a></span></div>
       <div class="wrapper">
 
         <article class="grid_4 prefix_7 alpha">

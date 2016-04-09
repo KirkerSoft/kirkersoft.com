@@ -21,10 +21,34 @@
 		echo "	})";
 		echo "})</script>";
 	}
-	elseif ($location=='home') {
-		echo "<script src=\"./js/slideshow.js\"></script>";
+	elseif ($location=='page1') {
+		echo "<script src=\"js/slides.min.jquery.js\"></script>";
+		echo "<script src=\"js/max-height.js\"></script>";
 	}
 ?>
+	<script>
+		$(window).load(function() {	
+			$('#slides').slides({
+				effect: 'fade',
+				fadeSpeed:700,
+				preload: true,
+				play: 7000,
+				pause: 1500,
+				generatePagination: true,
+				crossfade: true,
+				hoverPause: true,
+				animationStart: function(current){
+					$('.caption').animate({left:-900},300);
+					if (window.console && console.log) {console.log('animationStart on slide: ', current);};
+				},
+				animationComplete: function(current){
+					$('.caption').animate({left:0},300);
+					if (window.console && console.log) {console.log('animationComplete on slide: ', current);};
+				},
+				slidesLoaded: function() {$('.caption').animate({left:0},300);}
+			});
+		});		
+	</script>
 </head>
 <?php
 	echo '<body id="' . $location . '">';
@@ -39,7 +63,7 @@
       <nav>
         <div id="menu-icon">Menu <span></span></div>
         <ul class="sf-menu">
-          <li<?php if ($location=='home') { echo ' class="current"'; } ?>><a href="index.php"><span>Home</span></a></li>
+          <li<?php if ($location=='page1') { echo ' class="current"'; } ?>><a href="index.php"><span>Home</span></a></li>
           <li<?php if ($location=='page2') { echo ' class="current"'; } ?>><a href="aboutus.php"><span>Company</span></a></li>
           <li<?php if ($location=='page3') { echo ' class="current"'; } ?>><a href="services.php"><span>Services</span></a>
             <ul>
@@ -64,7 +88,51 @@
       <div class="clear"></div>
     </div>
   </div>
+<?php
+	if ($location=='page1') {
+		echo<<<END
+      <!--======================== slider ===========================-->
+      <div class="slider-box">
+    <div class="slider-box-bottom">
+          <div class="slider-btns"> <a href="#" class="button ">register</a> <a href="#" class="button a">sign in</a> </div>
+          <div class="slider-phone">Call us: <span>925 - 480 - 7638</span></div>
+        </div>
+    <div id="slides">
+          <div class="slides_container">
+        <div class="slide"> <img src="images/slide-1.jpg" alt="">
+              <div class="caption item1">
+            <div class="indents1"> We are experts in managing <span>&amp; supporting</span> <strong>it operations</strong> </div>
+          </div>
+            </div>
+        <div class="slide"> <img src="images/slide-2.jpg" alt="">
+              <div class="caption item2">
+            <div class="indents1"> Use <strong>information technology </strong> <span>to meet your business objectives </span> </div>
+          </div>
+            </div>
+        <div class="slide"> <img src="images/slide-3.jpg" alt="">
+              <div class="caption item3">
+            <div class="indents1"> Networking. Database Management.<br>
+                  Applications Development.<br>
+                  Project Management. </div>
+          </div>
+            </div>
+        <div class="slide"> <img src="images/slide-4.jpg" alt="">
+              <div class="caption item4">
+            <div class="indents1"> What can we do for you through <span><strong>Information Technology</strong></span> Consulting? </div>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+</header>
+END;
+	}
+	else {
+		echo<<<END
 </header>
 <div class="main">
   <div class="border-horiz"></div>
 </div>
+END;
+	}
+?>

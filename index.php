@@ -50,7 +50,7 @@
           </div>
             </div>
         <div class="name-1"><strong>John Lester </strong>(Owner)</div>
-        <!--<a href="#" class="link-2 fright">read more</a>-->
+        <a href="http://www.johnlester.rocks" class="link-2 fright" target="_blank">read more</a>-->
         <div class="clear"></div>
       </article>
           <article class="grid_5 prefix_1">

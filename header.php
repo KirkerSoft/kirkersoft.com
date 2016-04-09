@@ -111,8 +111,8 @@
             </div>
         <div class="slide"> <img src="images/slide-3.jpg" alt="">
               <div class="caption item3">
-            <div class="indents1"> Networking. Database Management.<br>
-                  Applications Development.<br>
+            <div class="indents1"> Desktop Application Development.<br>
+				  iOS &amp; Android Development.<br>
                   Project Management. </div>
           </div>
             </div>

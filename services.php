@@ -24,8 +24,8 @@
       <article class="grid_6">
         <div class="box-1 maxheight">
           <figure><img src="images/page1-img3.png " alt="" /><img class="active" src="images/page1-img3-hover.png " alt="" /></figure>
-          <h4>Database<br>
-            Management</h4>
+          <h4>Software<br>
+            Development</h4>
           <p>Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce varius mi cum sociis natoque. </p>
           <a href="#" class="link-1">read more</a> </div>
       </article>

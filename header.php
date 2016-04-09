@@ -67,18 +67,18 @@
           <li<?php if ($location=='page2') { echo ' class="current"'; } ?>><a href="aboutus.php"><span>Company</span></a></li>
           <li<?php if ($location=='page3') { echo ' class="current"'; } ?>><a href="services.php"><span>Services</span></a>
             <ul>
-              <li><a href="#">Managed Services</a></li>
-              <li><a href="#">Virtual Office / Private Cloud</a></li>
-              <li><a href="#">Salad</a>
+              <li><a href="managedServices.php">Managed Services</a></li>
+              <li><a href="virtualOffice.php">Virtual Office / Private Cloud</a></li>
+              <li><a href="onlineServices.php">Online Services</a>
                 <ul>
-                  <li><a href="#">Email</a></li>
-                  <li><a href="#">Web Hosting</a></li>
-                  <li class="last-item"><a href="#">Offsite Backup</a></li>
+                  <li><a href="email.php">Email</a></li>
+                  <li><a href="webHosting.php">Web Hosting</a></li>
+                  <li class="last-item"><a href="offsiteBackups.php">Offsite Backup</a></li>
                 </ul>
               </li>
-              <li><a href="#">Strategic Planning</a></li>
-              <li><a href="#">Installation</a></li>
-              <li class="last-item"><a href="#">Mobile IT</a></li>
+              <li><a href="strategicPlanning.php">Strategic Planning</a></li>
+              <li><a href="installations.php">Installation</a></li>
+              <li class="last-item"><a href="mobileIT.php">Mobile IT</a></li>
             </ul>
           </li>
           <li<?php if ($location=='page4') { echo ' class="current"'; } ?>><a href="projects.php"><span>Projects</span></a></li>
@@ -94,7 +94,7 @@
       <!--======================== slider ===========================-->
       <div class="slider-box">
     <div class="slider-box-bottom">
-          <div class="slider-btns"> <a href="#" class="button ">register</a> <a href="#" class="button a">sign in</a> </div>
+          <div class="slider-btns"> <a href="register.php" class="button ">register</a> <a href="login.php" class="button a">sign in</a> </div>
           <div class="slider-phone">Call us: <span>925 - 480 - 7638</span></div>
         </div>
     <div id="slides">

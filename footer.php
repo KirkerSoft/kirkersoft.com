@@ -4,6 +4,7 @@
     <div class="privacy"><span>&copy;2016&nbsp;Kirker&nbsp;Enterprises<br> <a href="privacy.php">Privacy Policy</a></span></div>
       <div class="wrapper">
 
+<!--
         <article class="grid_4 prefix_7 alpha">
           <h3>Our company:</h3>
           <ul class="list-1">
@@ -34,6 +35,8 @@
             <li><a href="contactus.php">Contact Us</a></li>
           </ul>
         </article>
+-->
+
       </div>
     </footer>
   </div>

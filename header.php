@@ -68,17 +68,14 @@
           <li<?php if ($location=='page3') { echo ' class="current"'; } ?>><a href="services.php"><span>Services</span></a>
             <ul>
               <li><a href="managedServices.php">Managed Services</a></li>
-              <li><a href="virtualOffice.php">Virtual Office / Private Cloud</a></li>
-              <li><a href="onlineServices.php">Online Services</a>
+              <li><a href="networkSolutions.php">Network Solutions</a></li>
+              <li><a href="softwareDevelopment.php">Software Development</a></li>
+              <li class="last-item"><a href="webDevelopment.php">Web Development</a>
                 <ul>
                   <li><a href="email.php">Email</a></li>
-                  <li><a href="webHosting.php">Web Hosting</a></li>
-                  <li class="last-item"><a href="offsiteBackups.php">Offsite Backup</a></li>
+                  <li class="last-item"><a href="webHosting.php">Web Hosting</a></li>
                 </ul>
               </li>
-              <li><a href="strategicPlanning.php">Strategic Planning</a></li>
-              <li><a href="installations.php">Installation</a></li>
-              <li class="last-item"><a href="mobileIT.php">Mobile IT</a></li>
             </ul>
           </li>
           <li<?php if ($location=='page4') { echo ' class="current"'; } ?>><a href="projects.php"><span>Projects</span></a></li>

@@ -7,8 +7,8 @@
     <div class="p3">
           <article class="grid_6">
         <div class="box-1 maxheight">
-              <figure><img src="images/home-img1.png " alt="Technical Support" /><img class="active" src="images/home-img1-hover.png " alt="" /></figure>
-              <h4>Technical<br>
+              <figure><img src="images/home-img1.png " alt="Managed Services" /><img class="active" src="images/home-img1-hover.png " alt="" /></figure>
+              <h4>Managed Services<br>
             Support</h4>
               <p>Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce varius mi cum sociis natoque. </p>
               <a href="#" class="link-1">read more</a> </div>

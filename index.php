@@ -26,8 +26,8 @@
               <figure><img src="images/home-img3.png " alt="Software Development" /><img class="active" src="images/home-img3-hover.png " alt="" /></figure>
               <h4>Software<br>
             Development</h4>
-              <p>Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce varius mi cum sociis natoque. </p>
-              <a href="#" class="link-1">read more</a> </div>
+              <p>Today’s businesses are increasingly becoming highly competitive. A bright idea, strong strategy and in depth marketing knowledge may still not...</p>
+              <a href="softwareDevelopment.php" class="link-1">read more</a> </div>
       </article>
           <article class="grid_6">
         <div class="box-1 maxheight">

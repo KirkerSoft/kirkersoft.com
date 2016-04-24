@@ -7,7 +7,7 @@
     <div class="p3">
           <article class="grid_6">
         <div class="box-1 maxheight">
-              <figure><img src="images/home-img1.png " alt="Managed Services" /><img class="active" src="images/home-img1-hover.png " alt="" /></figure>
+              <figure><img src="images/page1-img1.png " alt="Managed Services" /><img class="active" src="images/page1-img1-hover.png " alt="" /></figure>
               <h4>Managed Services<br>
             Support</h4>
               <p>Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce varius mi cum sociis natoque. </p>
@@ -15,7 +15,7 @@
       </article>
           <article class="grid_6">
         <div class="box-1 maxheight">
-              <figure><img src="images/home-img2.png " alt="Network Solutions" /><img class="active" src="images/home-img2-hover.png " alt="" /></figure>
+              <figure><img src="images/page1-img2.png " alt="Network Solutions" /><img class="active" src="images/page1-img2-hover.png " alt="" /></figure>
               <h4>Network<br>
             Solutions</h4>
               <p>Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce varius mi cum sociis natoque. </p>
@@ -23,7 +23,7 @@
       </article>
           <article class="grid_6">
         <div class="box-1 maxheight">
-              <figure><img src="images/home-img3.png " alt="Software Development" /><img class="active" src="images/home-img3-hover.png " alt="" /></figure>
+              <figure><img src="images/page1-img3.png " alt="Software Development" /><img class="active" src="images/page1-img3-hover.png " alt="" /></figure>
               <h4>Software<br>
             Development</h4>
               <p>Today’s businesses are increasingly becoming highly competitive. A bright idea, strong strategy and in depth marketing knowledge may still not...</p>
@@ -31,7 +31,7 @@
       </article>
           <article class="grid_6">
         <div class="box-1 maxheight">
-              <figure><img src="images/home-img4.png " alt="Web Development" /><img class="active" src="images/home-img4-hover.png " alt="" /></figure>
+              <figure><img src="images/page1-img4.png " alt="Web Development" /><img class="active" src="images/page1-img4-hover.png " alt="" /></figure>
               <h4>Web<br>
             Development</h4>
               <p>Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce varius mi cum sociis natoque. </p>

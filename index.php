@@ -9,9 +9,9 @@
         <div class="box-1 maxheight">
               <figure><img src="images/page1-img1.png " alt="Managed Services" /><img class="active" src="images/page1-img1-hover.png " alt="" /></figure>
               <h4>Managed Services<br>
-            Support</h4>
-              <p>Praesent vestibulum aenean Nonummy hendrerit mauris. Hasellus porta. Fusce varius mi cum sociis natoque. </p>
-              <a href="#" class="link-1">read more</a> </div>
+            Provider</h4>
+              <p>We remotely manage customer's IT infrastructure and end-user systems on a proactive basis under a subscription model.</p>
+              <a href="managedServices.php" class="link-1">read more</a> </div>
       </article>
           <article class="grid_6">
         <div class="box-1 maxheight">
